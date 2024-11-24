@@ -26,4 +26,4 @@ class Asiento:
 
     def __str__(self):
         estado = "Reservado" if self.__reservado else "Disponible"
-        return f"Asiento {self.__fila}{self.__numero}: {estado}, Precio: ${self.__precio:.2f}"
+        return f"Asiento {self.__fila}{self.__numero}: {estado}, Precio: €{self.__precio:.2f}"
